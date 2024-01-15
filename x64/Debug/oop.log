@@ -1,0 +1,291 @@
+﻿D:\VS Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of test.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are assignment_1_f22bb104\test.cpp, mid_practice\test.cpp, test.cpp.
+D:\VS Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of Q1.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are homework3\Q1.cpp, mid_practice\Q1.cpp.
+D:\VS Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of inheritence.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are inheritence.cpp, mid_practice\inheritence.cpp.
+  abstruction.cpp
+  Q_1.cpp
+  test.cpp
+D:\Object-Oriented-Programming\assignment_1_f22bb104\Q_1.cpp(107,13): error C2131: expression did not evaluate to a constant
+  D:\Object-Oriented-Programming\assignment_1_f22bb104\Q_1.cpp(107,13):
+  failure was caused by a read of a variable outside its lifetime
+  D:\Object-Oriented-Programming\assignment_1_f22bb104\Q_1.cpp(107,13):
+  see usage of 'size'
+  
+D:\Object-Oriented-Programming\assignment_1_f22bb104\test.cpp(20,42): error C2872: 'size': ambiguous symbol
+  D:\Object-Oriented-Programming\assignment_1_f22bb104\test.cpp(19,5):
+  could be 'int size'
+  D:\Object-Oriented-Programming\assignment_1_f22bb104\test.cpp(20,42):
+  or       'size'
+  
+D:\Object-Oriented-Programming\assignment_1_f22bb104\test.cpp(21,5): error C2143: syntax error: missing ';' before '<'
+D:\Object-Oriented-Programming\assignment_1_f22bb104\test.cpp(21,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\assignment_1_f22bb104\test.cpp(21,5): error C2059: syntax error: '<'
+  basic.cpp
+  book_test.cpp
+D:\Object-Oriented-Programming\book_test.cpp(26,10): error C2535: 'void Distance::showdist(void)': member function already defined or declared
+  D:\Object-Oriented-Programming\book_test.cpp(21,10):
+  see declaration of 'Distance::showdist'
+  
+D:\Object-Oriented-Programming\book_test.cpp(34,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+D:\Object-Oriented-Programming\book_test.cpp(34,5): error C3484: syntax error: expected '->' before the return type
+D:\Object-Oriented-Programming\book_test.cpp(34,6): error C3613: missing return type after '->' ('int' assumed)
+D:\Object-Oriented-Programming\book_test.cpp(34,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(34,1): error C2371: 'temp': redefinition; different basic types
+  D:\Object-Oriented-Programming\book_test.cpp(33,10):
+  see declaration of 'temp'
+  
+D:\Object-Oriented-Programming\book_test.cpp(34,6): error C2146: syntax error: missing ';' before identifier 'inches'
+D:\Object-Oriented-Programming\book_test.cpp(36,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+D:\Object-Oriented-Programming\book_test.cpp(36,5): error C3484: syntax error: expected '->' before the return type
+D:\Object-Oriented-Programming\book_test.cpp(36,6): error C3613: missing return type after '->' ('int' assumed)
+D:\Object-Oriented-Programming\book_test.cpp(36,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(36,1): error C2371: 'temp': redefinition; different basic types
+  D:\Object-Oriented-Programming\book_test.cpp(33,10):
+  see declaration of 'temp'
+  
+D:\Object-Oriented-Programming\book_test.cpp(36,6): error C2146: syntax error: missing ';' before identifier 'inches'
+D:\Object-Oriented-Programming\book_test.cpp(37,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+D:\Object-Oriented-Programming\book_test.cpp(37,5): error C3484: syntax error: expected '->' before the return type
+D:\Object-Oriented-Programming\book_test.cpp(37,6): error C3613: missing return type after '->' ('int' assumed)
+D:\Object-Oriented-Programming\book_test.cpp(37,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(37,1): error C2371: 'temp': redefinition; different basic types
+  D:\Object-Oriented-Programming\book_test.cpp(33,10):
+  see declaration of 'temp'
+  
+D:\Object-Oriented-Programming\book_test.cpp(37,6): error C2146: syntax error: missing ';' before identifier 'feet'
+D:\Object-Oriented-Programming\book_test.cpp(38,1): error C2059: syntax error: '}'
+D:\Object-Oriented-Programming\book_test.cpp(38,1): error C2143: syntax error: missing ';' before '}'
+D:\Object-Oriented-Programming\book_test.cpp(40,1): error C2059: syntax error: 'return'
+D:\Object-Oriented-Programming\book_test.cpp(41,1): error C2059: syntax error: '}'
+D:\Object-Oriented-Programming\book_test.cpp(41,1): error C2143: syntax error: missing ';' before '}'
+D:\Object-Oriented-Programming\book_test.cpp(45,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+D:\Object-Oriented-Programming\book_test.cpp(45,6): error C3484: syntax error: expected '->' before the return type
+D:\Object-Oriented-Programming\book_test.cpp(45,7): error C3613: missing return type after '->' ('int' assumed)
+D:\Object-Oriented-Programming\book_test.cpp(45,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(45,7): error C2146: syntax error: missing ';' before identifier 'getdist'
+D:\Object-Oriented-Programming\book_test.cpp(46,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(47,6): error C2143: syntax error: missing ';' before '<<'
+D:\Object-Oriented-Programming\book_test.cpp(47,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(47,6): error C2059: syntax error: '<<'
+D:\Object-Oriented-Programming\book_test.cpp(47,16): error C2017: illegal escape sequence
+D:\Object-Oriented-Programming\book_test.cpp(48,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+D:\Object-Oriented-Programming\book_test.cpp(48,6): error C3484: syntax error: expected '->' before the return type
+D:\Object-Oriented-Programming\book_test.cpp(48,7): error C3613: missing return type after '->' ('int' assumed)
+D:\Object-Oriented-Programming\book_test.cpp(48,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(48,1): error C2086: 'int dist1': redefinition
+  D:\Object-Oriented-Programming\book_test.cpp(45,1):
+  see declaration of 'dist1'
+  
+D:\Object-Oriented-Programming\book_test.cpp(48,7): error C2146: syntax error: missing ';' before identifier 'showdist'
+D:\Object-Oriented-Programming\book_test.cpp(49,6): error C2143: syntax error: missing ';' before '<<'
+D:\Object-Oriented-Programming\book_test.cpp(49,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(49,1): error C2086: 'int cout': redefinition
+  D:\Object-Oriented-Programming\book_test.cpp(47,1):
+  see declaration of 'cout'
+  
+D:\Object-Oriented-Programming\book_test.cpp(49,6): error C2059: syntax error: '<<'
+D:\Object-Oriented-Programming\book_test.cpp(49,16): error C2017: illegal escape sequence
+D:\Object-Oriented-Programming\book_test.cpp(50,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+D:\Object-Oriented-Programming\book_test.cpp(50,6): error C3484: syntax error: expected '->' before the return type
+D:\Object-Oriented-Programming\book_test.cpp(50,7): error C3613: missing return type after '->' ('int' assumed)
+D:\Object-Oriented-Programming\book_test.cpp(50,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(50,1): error C2371: 'dist2': redefinition; different basic types
+  D:\Object-Oriented-Programming\book_test.cpp(44,10):
+  see declaration of 'dist2'
+  
+D:\Object-Oriented-Programming\book_test.cpp(50,7): error C2146: syntax error: missing ';' before identifier 'showdist'
+D:\Object-Oriented-Programming\book_test.cpp(51,6): error C2143: syntax error: missing ';' before '<<'
+D:\Object-Oriented-Programming\book_test.cpp(51,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(51,1): error C2086: 'int cout': redefinition
+  D:\Object-Oriented-Programming\book_test.cpp(47,1):
+  see declaration of 'cout'
+  
+D:\Object-Oriented-Programming\book_test.cpp(51,6): error C2059: syntax error: '<<'
+D:\Object-Oriented-Programming\book_test.cpp(51,16): error C2017: illegal escape sequence
+D:\Object-Oriented-Programming\book_test.cpp(52,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+D:\Object-Oriented-Programming\book_test.cpp(52,6): error C3484: syntax error: expected '->' before the return type
+D:\Object-Oriented-Programming\book_test.cpp(52,7): error C3613: missing return type after '->' ('int' assumed)
+D:\Object-Oriented-Programming\book_test.cpp(52,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(52,1): error C2086: 'int dist3': redefinition
+  D:\Object-Oriented-Programming\book_test.cpp(46,1):
+  see declaration of 'dist3'
+  
+D:\Object-Oriented-Programming\book_test.cpp(52,7): error C2146: syntax error: missing ';' before identifier 'showdist'
+D:\Object-Oriented-Programming\book_test.cpp(53,6): error C2143: syntax error: missing ';' before '<<'
+D:\Object-Oriented-Programming\book_test.cpp(53,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Object-Oriented-Programming\book_test.cpp(53,1): error C2086: 'int cout': redefinition
+  D:\Object-Oriented-Programming\book_test.cpp(47,1):
+  see declaration of 'cout'
+  
+D:\Object-Oriented-Programming\book_test.cpp(53,6): error C2059: syntax error: '<<'
+D:\Object-Oriented-Programming\book_test.cpp(54,1): error C2059: syntax error: 'return'
+D:\Object-Oriented-Programming\book_test.cpp(55,1): error C2059: syntax error: '}'
+D:\Object-Oriented-Programming\book_test.cpp(55,1): error C2143: syntax error: missing ';' before '}'
+  calculator_by_oop.cpp
+  constructor.cpp
+  constructor_in_inheritence.cpp
+  dynamic_array_objects.cpp
+D:\Object-Oriented-Programming\dynamic_array_objects.cpp(35,8): error C3861: 'getline': identifier not found
+  enum.cpp
+  Q1.cpp
+  inheritence.cpp
+  array_pos_return.cpp
+D:\Object-Oriented-Programming\mid_practice\array_pos_return.cpp(15,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Object-Oriented-Programming\mid_practice\array_pos_return.cpp(16,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Object-Oriented-Programming\mid_practice\array_pos_return.cpp(21,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Object-Oriented-Programming\mid_practice\array_pos_return.cpp(24,21): warning C4552: '<': result of expression not used
+  array_sum_target.cpp
+D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(9,13): error C2131: expression did not evaluate to a constant
+  D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(9,13):
+  failure was caused by a read of a variable outside its lifetime
+  D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(9,13):
+  see usage of 'size'
+  
+D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(12,13): warning C4552: '>>': result of expression not used
+D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(17,16): error C2131: expression did not evaluate to a constant
+  D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(17,16):
+  failure was caused by a read of a variable outside its lifetime
+  D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(17,16):
+  see usage of 'size'
+  
+D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(26,23): error C3863: array type 'int [size]' is not assignable
+D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(34,31): error C3863: array type 'int [size]' is not assignable
+D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(43,31): error C3863: array type 'int [size]' is not assignable
+D:\Object-Oriented-Programming\mid_practice\array_sum_target.cpp(61,27): warning C4552: '<<': result of expression not used
+  inheritence.cpp
+  premutation.cpp
+D:\Object-Oriented-Programming\mid_practice\premutation.cpp(17,13): error C2562: 'Solution::nextPermutation': 'void' function returning a value
+  D:\Object-Oriented-Programming\mid_practice\premutation.cpp(6,10):
+  see declaration of 'Solution::nextPermutation'
+  
+D:\Object-Oriented-Programming\mid_practice\premutation.cpp(20,15): error C2065: 'i': undeclared identifier
+D:\Object-Oriented-Programming\mid_practice\premutation.cpp(20,22): error C2065: 'i': undeclared identifier
+D:\Object-Oriented-Programming\mid_practice\premutation.cpp(20,26): error C2563: mismatch in formal parameter list
+D:\Object-Oriented-Programming\mid_practice\premutation.cpp(20,26): error C2568: '<': unable to resolve function overload
+  D:\Object-Oriented-Programming\mid_practice\premutation.cpp(20,26):
+  could be 'iterator_traits<_Iter>::difference_type std::count(const _InIt,const _InIt,const _Ty &)'
+  
+D:\Object-Oriented-Programming\mid_practice\premutation.cpp(20,33): error C2065: 'i': undeclared identifier
+  Q1.cpp
+  Quiz_1.cpp
+D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,14): error C2065: 'ptr': undeclared identifier
+D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,22): error C2065: 'ptr': undeclared identifier
+  search_target_by_recursion.cpp
+D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9): error C2672: 'std::swap': no matching overloaded function found
+  D:\VS Community\VC\Tools\MSVC\14.38.33130\include\memory(3496,19):
+  could be 'void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept'
+  	D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9):
+  	'void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept': expects 2 arguments - 1 provided
+  D:\VS Community\VC\Tools\MSVC\14.38.33130\include\memory(3116,6):
+  or       'void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept'
+  	D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9):
+  	'void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept': expects 2 arguments - 1 provided
+  D:\VS Community\VC\Tools\MSVC\14.38.33130\include\memory(1984,6):
+  or       'void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept'
+  	D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9):
+  	'void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept': expects 2 arguments - 1 provided
+  D:\VS Community\VC\Tools\MSVC\14.38.33130\include\xstring(4901,19):
+  or       'void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+  	D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9):
+  	'void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': expects 2 arguments - 1 provided
+  D:\VS Community\VC\Tools\MSVC\14.38.33130\include\utility(476,19):
+  or       'void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)'
+  	D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9):
+  	'void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)': expects 2 arguments - 1 provided
+  D:\VS Community\VC\Tools\MSVC\14.38.33130\include\type_traits(2133,19):
+  or       'void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)'
+  	D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9):
+  	'void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)': expects 2 arguments - 1 provided
+  D:\VS Community\VC\Tools\MSVC\14.38.33130\include\type_traits(2130,19):
+  or       'void std::swap(_Ty &,_Ty &) noexcept(<expr>)'
+  	D:\Object-Oriented-Programming\mid_practice\Quiz_1.cpp(10,9):
+  	'void std::swap(_Ty &,_Ty &) noexcept(<expr>)': expects 2 arguments - 1 provided
+  
+  std_by_oop.cpp
+D:\Object-Oriented-Programming\mid_practice\std_by_oop.cpp(59,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Object-Oriented-Programming\mid_practice\std_by_oop.cpp(74,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Object-Oriented-Programming\mid_practice\std_by_oop.cpp(81,13): error C2131: expression did not evaluate to a constant
+  D:\Object-Oriented-Programming\mid_practice\std_by_oop.cpp(81,13):
+  failure was caused by a read of a variable outside its lifetime
+  D:\Object-Oriented-Programming\mid_practice\std_by_oop.cpp(81,13):
+  see usage of 'size'
+  
+  Generating Code...
+  Compiling...
+  test.cpp
+  triangle.cpp
+D:\Object-Oriented-Programming\mid_practice\triangle.cpp(63,5): error C2065: 'So': undeclared identifier
+D:\Object-Oriented-Programming\mid_practice\triangle.cpp(64,5): error C2143: syntax error: missing ';' before '<template-id>'
+  paper.cpp
+  pointer_of_objects.cpp
+  main.cpp
+  sample2.cpp
+  project_by_bhai.cpp
+D:\Object-Oriented-Programming\project_by_bhai.cpp(28,13): error C3861: 'getline': identifier not found
+D:\Object-Oriented-Programming\project_by_bhai.cpp(73,13): error C3861: 'getline': identifier not found
+D:\Object-Oriented-Programming\project_by_bhai.cpp(132,9): error C3861: 'getline': identifier not found
+D:\Object-Oriented-Programming\project_by_bhai.cpp(150,9): error C3861: 'getline': identifier not found
+D:\Object-Oriented-Programming\project_by_bhai.cpp(186,28): error C2131: expression did not evaluate to a constant
+  D:\Object-Oriented-Programming\project_by_bhai.cpp(186,28):
+  failure was caused by a read of a variable outside its lifetime
+  D:\Object-Oriented-Programming\project_by_bhai.cpp(186,28):
+  see usage of 'n'
+  
+D:\Object-Oriented-Programming\project_by_bhai.cpp(191,28): error C3863: array type 'std::string [n]' is not assignable
+  quiz.cpp
+  person_input.cpp
+D:\Object-Oriented-Programming\raw-material\person_input.cpp(31,18): error C2131: expression did not evaluate to a constant
+  D:\Object-Oriented-Programming\raw-material\person_input.cpp(31,18):
+  failure was caused by a read of a variable outside its lifetime
+  D:\Object-Oriented-Programming\raw-material\person_input.cpp(31,18):
+  see usage of 'n'
+  
+D:\Object-Oriented-Programming\raw-material\person_input.cpp(37,9): error C3861: 'getline': identifier not found
+D:\Object-Oriented-Programming\raw-material\person_input.cpp(40,9): error C3861: 'getline': identifier not found
+D:\Object-Oriented-Programming\raw-material\person_input.cpp(43,9): error C3861: 'getline': identifier not found
+D:\Object-Oriented-Programming\raw-material\person_input.cpp(45,16): error C3863: array type 'students [n]' is not assignable
+  rough.cpp
+  send_objects_in_class.cpp
+  setter_getter.cpp
+  staticmember.cpp
+  templates.cpp
+D:\Object-Oriented-Programming\templates.cpp(29,16): warning C4305: '=': truncation from 'double' to 'T'
+D:\Object-Oriented-Programming\templates.cpp(29,16): warning C4305:         with
+D:\Object-Oriented-Programming\templates.cpp(29,16): warning C4305:         [
+D:\Object-Oriented-Programming\templates.cpp(29,16): warning C4305:             T=float
+D:\Object-Oriented-Programming\templates.cpp(29,16): warning C4305:         ]
+D:\Object-Oriented-Programming\templates.cpp(30,16): warning C4305: '=': truncation from 'double' to 'T'
+D:\Object-Oriented-Programming\templates.cpp(30,16): warning C4305:         with
+D:\Object-Oriented-Programming\templates.cpp(30,16): warning C4305:         [
+D:\Object-Oriented-Programming\templates.cpp(30,16): warning C4305:             T=float
+D:\Object-Oriented-Programming\templates.cpp(30,16): warning C4305:         ]
+D:\Object-Oriented-Programming\templates.cpp(31,16): warning C4305: '=': truncation from 'double' to 'T'
+D:\Object-Oriented-Programming\templates.cpp(31,16): warning C4305:         with
+D:\Object-Oriented-Programming\templates.cpp(31,16): warning C4305:         [
+D:\Object-Oriented-Programming\templates.cpp(31,16): warning C4305:             T=float
+D:\Object-Oriented-Programming\templates.cpp(31,16): warning C4305:         ]
+D:\Object-Oriented-Programming\templates.cpp(33,16): warning C4305: '=': truncation from 'double' to 'T'
+D:\Object-Oriented-Programming\templates.cpp(33,16): warning C4305:         with
+D:\Object-Oriented-Programming\templates.cpp(33,16): warning C4305:         [
+D:\Object-Oriented-Programming\templates.cpp(33,16): warning C4305:             T=float
+D:\Object-Oriented-Programming\templates.cpp(33,16): warning C4305:         ]
+D:\Object-Oriented-Programming\templates.cpp(34,16): warning C4305: '=': truncation from 'double' to 'T'
+D:\Object-Oriented-Programming\templates.cpp(34,16): warning C4305:         with
+D:\Object-Oriented-Programming\templates.cpp(34,16): warning C4305:         [
+D:\Object-Oriented-Programming\templates.cpp(34,16): warning C4305:             T=float
+D:\Object-Oriented-Programming\templates.cpp(34,16): warning C4305:         ]
+D:\Object-Oriented-Programming\templates.cpp(35,16): warning C4305: '=': truncation from 'double' to 'T'
+D:\Object-Oriented-Programming\templates.cpp(35,16): warning C4305:         with
+D:\Object-Oriented-Programming\templates.cpp(35,16): warning C4305:         [
+D:\Object-Oriented-Programming\templates.cpp(35,16): warning C4305:             T=float
+D:\Object-Oriented-Programming\templates.cpp(35,16): warning C4305:         ]
+  template_function.cpp
+  test.cpp
+  vector_dot.cpp
+  virtual_class.cpp
+  virtual_function.cpp
+D:\Object-Oriented-Programming\virtual_function.cpp(27,12): error C2512: 'Base': no appropriate default constructor available
+  D:\Object-Oriented-Programming\virtual_function.cpp(4,7):
+  see declaration of 'Base'
+  
+  Generating Code...
+D:\Object-Oriented-Programming\quiz.cpp(5): error C4716: 'rotatearr': must return a value

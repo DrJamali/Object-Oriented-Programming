@@ -56,6 +56,7 @@ public: // this will allow us to use these blue prints in main function
         }
     }
 };
+
 int main()
 {
     students s1 = students("Hazrate Jamali", "Sibghat Ullah", 118);
