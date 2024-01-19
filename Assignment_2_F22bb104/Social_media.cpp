@@ -87,6 +87,10 @@ public:
     {
         Posts.push_back(post);
     }
+    Post *return_post(int index)
+    {
+        return &Posts[index];
+    }
     void remove_post(Post &post)
     {
         for (int i = 0; i < Posts.size(); i++)
@@ -97,7 +101,7 @@ public:
             }
         }
     }
-    void display_users()
+    void display_user()
     {
         cout << "Username: " << username << endl;
         cout << "Full Name: " << full_name << endl;
@@ -112,7 +116,34 @@ public:
         {
             for (int i = 0; i < friends.size(); i++)
             {
-                friends[i].display_users();
+                friends[i].display_user();
+            }
+        }
+        cout << "Posts: " << endl;
+        if (Posts.empty())
+        {
+            cout << "No posts available" << endl;
+        }
+        else
+        {
+            for (int i = 0; i < Posts.size(); i++)
+            {
+                Posts[i].display_post();
+            }
+        }
+    }
+    void display_frnds()
+    {
+        cout << "Friends: " << endl;
+        if (friends.empty())
+        {
+            cout << "No friends available" << endl;
+        }
+        else
+        {
+            for (int i = 0; i < friends.size(); i++)
+            {
+                friends[i].display_user();
             }
         }
     }
@@ -126,7 +157,7 @@ class Comment
     time_t time_stamp;
 
 public:
-    Comment() = default;
+    Comment() : comment_id(next_cmnt_id++), time_stamp(time(0)) {}
     Comment(string content, User commentor) : content(content), commentor(commentor), comment_id(next_cmnt_id++), time_stamp(time(0)) {}
     string return_content()
     {
@@ -136,6 +167,7 @@ public:
     {
         return commentor;
     }
+
     int return_comment_id()
     {
         return comment_id;
@@ -148,9 +180,22 @@ public:
         cout << "Comment ID: " << comment_id << endl;
         cout << "Time Stamp: " << ctime(&time_stamp) << endl;
     }
+    void set_content(string content)
+    {
+        this->content = content;
+    }
+    void set_commentor(User commentor)
+    {
+        this->commentor = commentor;
+    }
+
     time_t return_time_stamp()
     {
         return time_stamp;
+    }
+    bool operator==(Comment c1)
+    {
+        return comment_id == c1.comment_id;
     }
 };
 int Comment::next_cmnt_id = 1;
@@ -166,17 +211,68 @@ class Post
     vector<Comment> comments;
 
 public:
-    Post() = default;
+    Post() : post_id(next_post_id++), title(""), content(""), time_stamp(time(0)), likes(0) {}
     Post(string title, string content) : post_id(next_post_id++), title(title), content(content), time_stamp(time(0))
     {
         likes = 0;
     }
+    void set_content(string content)
+    {
+        this->content = content;
+    }
+    void set_title(string title)
+    {
+        this->title = title;
+    }
+
     int return_id() { return post_id; }
     string return_title() { return title; }
     string return_content() { return content; }
     time_t return_time_stamp() { return time_stamp; }
-    void add_cmnt(Comment &c1){
+    Comment *return_cmnt(int index)
+    {
+        return &comments[index];
+    }
+
+    void add_cmnt(Comment &c1)
+    {
         comments.push_back(c1);
+    }
+    void remove_cmnt(Comment &c1)
+    {
+        for (int i = 0; i < comments.size(); i++)
+        {
+            if (comments[i] == c1)
+            {
+                comments.erase(comments.begin() + i);
+            }
+        }
+    }
+    void display_post()
+    {
+        cout << "Post ID: " << post_id << endl;
+        cout << "Title: " << title << endl;
+        cout << "Content: " << content << endl;
+        cout << "Time Stamp: " << ctime(&time_stamp) << endl;
+        cout << "Comments: " << endl;
+        if (comments.empty())
+        {
+            cout << "No comments available" << endl;
+        }
+        else
+        {
+            for (int i = 0; i < comments.size(); i++)
+            {
+                comments[i].display_comment();
+            }
+        }
+    }
+    void display_cmnts()
+    {
+        for (int i = 0; i < comments.size(); i++)
+        {
+            comments[i].display_comment();
+        }
     }
     void operator+(int like)
     {
@@ -202,11 +298,36 @@ public:
         u1.set_Date_of_Birth();
         users.push_back(u1);
     }
-    void display_users()
+    void display_user()
     {
-        for (int i = 0; i < users.size(); i++)
+    }
+    void signing_in_or_up()
+    {
+        User u1;
+        cout << "Press 1 to sign in" << endl
+             << "Press 2 to sign up" << endl;
+        int choice;
+        cin >> choice;
+        if (choice == 1)
         {
-            users[i].display_users();
+            u1.set_username();
+            u1.set_full_name();
+            u1.set_email();
+            u1.set_Date_of_Birth();
+            users.push_back(u1);
+        }
+        else if (choice == 2)
+        {
+            cout << "Enter your username for signing in..." << endl;
+            string key;
+            cin >> key;
+            for (int i = 0; i < users.size(); i++)
+            {
+                if (key == users[i].return_username())
+                {
+                    u1 = users[i];
+                }
+            }
         }
     }
 };
@@ -214,7 +335,7 @@ int main()
 {
 
     User u1("John", "<NAME>", "<EMAIL>", Date(1, 1, 1990));
-    u1.display_users();
+    u1.display_user();
     Comment c1("This is a comment", u1);
     c1.display_comment();
 
