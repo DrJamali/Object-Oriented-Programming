@@ -70,8 +70,15 @@ class Post{
 
 };
 int Post::next_post_id = 1;
-int main()
-{
 
+int main() {
+
+    std::string a = "Jamali";
+    
+    if (a.find("alij") != std::string::npos) {
+        std::cout << "yes";
+    } else {
+        std::cout << "no";
+    }
     return 0;
 }
