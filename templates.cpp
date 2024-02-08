@@ -1,39 +1,25 @@
 #include <iostream>
 using namespace std;
-template <class T>
-class vector
+template <class Gujjar>
+class SUM
 {
 public:
 
-    int n;
-    T *arr;
+    Gujjar sum(Gujjar num1,Gujjar num2){
+        Gujjar sum = num1  num2;
+        return sum;
+    }    
 
-    vector(int m)
-    {
-        n = m;
-        arr = new T[m];
-    }
-    T dot_product(vector &v)
-    {
-        T d=0;
-        for (int i = 0; i < n; i++)
-        {
-            d += this->arr[i] * v.arr[i];
-        }
-        return d;
-    }
 };
 int main()
 {
-    vector<float>v1(3);
-    v1.arr[0] =1.4;
-    v1.arr[1] =3.3;
-    v1.arr[2] =0.1;
-    vector<float> v2(3);
-    v2.arr[0] =0.1;
-    v2.arr[1] =1.90;
-    v2.arr[2] =4.1;
-   cout<<v1.dot_product(v2)<<endl;
+    
+   SUM<int> s1;
+   cout<<s1.sum(12,13)<<endl;
+   SUM<float> s2;
+   cout<<s2.sum(12.5,13.5)<<endl;
+   SUM<double> s3;
+   cout<<s3.sum(12,13)<<endl;
 
     return 0;
 }

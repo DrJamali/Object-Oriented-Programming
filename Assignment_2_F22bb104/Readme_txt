@@ -1,0 +1,46 @@
+Compile: g++ F22BB104.cpp
+Execution: ./a.exe
+Code Structure:
+I have created the following classes
+1-User
+2-Post
+3-Comment
+4-Messages
+    User has posts,friends(That all also users)and Messages class objects and its other attributes.It has functions to add user, remove user,add post and remove post etc;
+    Post has Comment class objects and its other attributes.it has function to add or remove comments etc
+    Comment has only its attributes and functions
+    Message has User object as sender and another User object for sender
+Along that there is another class
+Social Media
+    It act as a controller class has functions that enable us  to make these features
+Features:
+1. **Post Updates:**
+   - Press 1 to create and post updates.
+
+2. **View Friends' Posts:**
+   - Press 2 to view posts from your friends.
+
+3. **View Friends List:**
+   - Press 3 to see a list of your friends.
+
+4. **Make Friends:**
+   - Press 4 to make a new friend.
+
+5. **View Timeline:**
+   - Press 5 to view your personal timeline.
+
+6. **View Own Profile:**
+   - Press 6 to view your own profile.
+
+7. **Private Messaging:**
+   - Press 7 to send a private message to a friend.
+
+8. **Create a New Account:**
+   - Press 8 to create a new user account.
+
+9. **Switch Users:**
+   - Press 9 to switch to a different user.
+
+Running on console:
+First you have to select sign up option to create a new account then if you want to interact with other usser you have to create a new account then if you want to use messages or comments etc you first  have to establish friendship between different accounts then you can see different accounts
+on which posts can comment or like You can also send messages after the friendship has been created
