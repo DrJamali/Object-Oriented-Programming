@@ -12,7 +12,7 @@ int a;
     }
 };
 
-class Car :virtual  public Engine
+class Car :  public Engine
 {
 public:
 int a;
@@ -22,7 +22,7 @@ int a;
     }
 };
 
-class Bikes :virtual public Engine
+class Bikes : public Engine
 {
 public:
 int a;
@@ -32,18 +32,18 @@ int a;
     }
 };
 
-class HybridCar : public Car, public Bikes
+class HybridCar :virtual public Car,virtual public Bikes
 {
 public:
- void start() override{
-     cout << "HybridCar start" << endl;
- }
+//  void start() override{
+//      cout << "HybridCar start" << endl;
+//  }
    
 };
 
 int main()
 {
     HybridCar car;
-    car.start();
+    car.Bikes::start();
     return 0;
 }
